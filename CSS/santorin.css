@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Palatino, URW Palladio L,serif;
+    font-size: 16px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assurance-voyage-besoin.jpg);
+    background-size: cover;
+    height:100vh;
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    background-color:aquamarine;
+    color:black;
+}
+.menu{
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:140px;
+}
+.main .menu .menu_i{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+}
+.main .menu .menu_i a{
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    display: block;
+}
+.menu_i:hover{
+     background-color:#232527;
+     transform: skewX(20deg);
+     animation-direction: alternate;
+     animation:skew 1s infinite;
+}
+ #acc{
+    background-color:rgb(218, 14, 14) ;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:aqua;
+    
+}
+.title h1{
+    color:aqua;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.lgo2 {
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+}
+#videopresentation{
+    width: 100%;
+    height:600px ;
+}
+.blog{
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(68, 67, 67) ;
+    text-align: center;
+}
+.h1{
+    color: rgb(155, 70, 70);
+    text-align: center;
+}
+.h2{
+    color: rgb(119, 9, 9);
+    text-align: center;
+}
+.gallery{
+    width: 1000px;
+    margin: 100px 190px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background:whitesmoke;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.imgbox img{
+    max-width: 100%;
+    height: 300px;
+    transition: transform 2s;
+}
+.gallery .box:hover .imgbox img{
+    transform: scaleZ(1.3);
+    -webkit-transform: scaleZ(1.7);
+}
+.photo{
+    text-align: center;
+    color: rgb(105, 21, 21);
+}
+.description{
+    color: rgb(100, 22, 22);
+    text-align: center;
+}
+.site{
+    color: rgb(100, 22, 22);
+    text-align: center;
+}
+.ecriture{
+    color:rgb(105, 21, 21);
+    text-align: center;
+}
+.pic{
+    margin: 100px 190px;
+    height: 600px;
+}
